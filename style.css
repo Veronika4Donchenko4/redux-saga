@@ -1,0 +1,196 @@
+.wrapper {
+  max-width: 1640px;
+  height: 700px;
+  margin: auto;
+  text-align: right;
+  display: flex;
+  border: 2px solid #d6d6d6;
+  justify-content: space-between;
+}
+.wrapper #new-canvas {
+  border: 1px solid #d6d6d6;
+  margin: auto;
+}
+.wrapper .colors-list {
+  display: flex;
+  width: 240px;
+  height: 230px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  background-color: #d6d6d6;
+  margin: 0 0 0 0;
+}
+.wrapper .colors-list .current {
+  border: 30px solid black dashed 1px;
+  box-shadow: 0px 1px 0px #000, 0px -1px 0px #000, 1px 0px 0px #000, -1px 0px 0px #000;
+}
+.wrapper .colors-list li {
+  width: 30px;
+  height: 30px;
+  list-style-type: none;
+  margin: 4px;
+  cursor: pointer;
+}
+.wrapper .colors-list .color {
+  font-size: 0;
+}
+.wrapper .colors-list .color1 {
+  background-color: #d12323;
+}
+.wrapper .colors-list .color2 {
+  background-color: #7fc655;
+}
+.wrapper .colors-list .color3 {
+  background-color: #234b0a;
+}
+.wrapper .colors-list .color4 {
+  background-color: #1dff77;
+}
+.wrapper .colors-list .color5 {
+  background-color: #5d2f16;
+}
+.wrapper .colors-list .color6 {
+  background-color: #ccff00;
+}
+.wrapper .colors-list .color7 {
+  background-color: #546708;
+}
+.wrapper .colors-list .color8 {
+  background-color: #2454c1;
+}
+.wrapper .colors-list .color9 {
+  background-color: #1308fd;
+}
+.wrapper .colors-list .color10 {
+  background-color: #050247;
+}
+.wrapper .colors-list .color11 {
+  background-color: #00fecb;
+}
+.wrapper .colors-list .color12 {
+  background-color: #04750f;
+}
+.wrapper .colors-list .color13 {
+  background-color: #45067f;
+}
+.wrapper .colors-list .color14 {
+  background-color: #dc8080;
+}
+.wrapper .colors-list .color15 {
+  background-color: #ef9b09;
+}
+.wrapper .colors-list .color16 {
+  background-color: #02474a;
+}
+.wrapper .colors-list .color17 {
+  background-color: #461820;
+}
+.wrapper .colors-list .color18 {
+  background-color: #ff0000;
+}
+.wrapper .colors-list .color19 {
+  background-color: #d4f2ad;
+}
+.wrapper .colors-list .color20 {
+  background-color: #5b015b;
+}
+.wrapper .colors-list .color21 {
+  background-color: #b2bc5d;
+}
+.wrapper .colors-list .color22 {
+  background-color: #d12369;
+}
+.wrapper .colors-list .color23 {
+  background-color: #18256f;
+}
+.wrapper .colors-list .color24 {
+  background-color: #000000;
+}
+.wrapper .colors-list .color25 {
+  background-color: #006685;
+}
+.wrapper .colors-list .color26 {
+  background-color: #5a051b;
+}
+.wrapper .colors-list .color27 {
+  background-color: #10cfff;
+}
+.wrapper .colors-list .color28 {
+  background-color: #017815;
+}
+.wrapper .colors-list .color29 {
+  background-color: #a7ff1a;
+}
+.wrapper .colors-list .color30 {
+  background-color: #bea500;
+}
+.wrapper #color {
+  width: 100%;
+  border: none;
+}
+.wrapper .line-heignt {
+  width: 240px;
+  height: 275px;
+  background-color: #d6d6d6;
+}
+.wrapper .line-heignt .line {
+  width: 100%;
+  height: 50px;
+  border-top: 5px solid #5c0170;
+  display: block;
+}
+.wrapper .line-heignt .line .current {
+  border: 2px solid black;
+}
+.wrapper .line-heignt .line .line-height {
+  display: block;
+  position: relative;
+  top: 50%;
+  margin: 0 auto;
+  width: 90%;
+  height: 2px;
+  align-items: center;
+  background-color: #828282;
+  font-size: 0;
+  padding: 0 0 0 0;
+  cursor: pointer;
+}
+.wrapper .line-heignt .line .height-3px {
+  height: 3px;
+}
+.wrapper .line-heignt .line .height-5px {
+  height: 5px;
+}
+.wrapper .line-heignt .line .height-8px {
+  height: 8px;
+}
+.wrapper .line-heignt .line .height-10px {
+  height: 10px;
+}
+.wrapper .buttons-box {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 0 0 0;
+}
+.wrapper .buttons-box #clear {
+  border: none;
+  background-color: #d6d6d6;
+  display: block;
+  margin: 0 0 10px 0;
+  padding: 10px 0;
+  cursor: pointer;
+}
+.wrapper .buttons-box #clear:hover {
+  text-decoration: underline;
+}
+.wrapper .buttons-box #save {
+  border: none;
+  background-color: #d6d6d6;
+  display: block;
+  padding: 10px 0;
+  cursor: pointer;
+}
+.wrapper .buttons-box #save:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */

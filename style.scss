@@ -1,0 +1,196 @@
+.wrapper {
+    max-width: 1640px;
+    height: 700px;
+    margin: auto;
+    text-align: right;
+    display: flex;
+    border: 2px solid #d6d6d6;
+    justify-content: space-between;
+    #new-canvas {
+        border: 1px solid #d6d6d6;
+        margin: auto;
+    }
+    .colors-list {
+        display: flex;
+        width: 240px;
+        height: 230px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0;
+        background-color: #d6d6d6;
+        margin: 0 0 0 0;
+        .current {
+            border: 30px solid black dashed 1px;
+            box-shadow:0px 1px 0px #000,0px -1px 0px #000,1px 0px 0px #000,-1px 0px 0px #000;
+        }
+        li {
+            width: 30px;
+            height: 30px;
+            list-style-type: none;
+            margin: 4px;
+            cursor: pointer;
+        }
+        .color {
+            font-size: 0;
+        }
+        .color1{
+            background-color: #d12323;
+        }
+        .color2{
+            background-color: #7fc655;
+        }
+        .color3{
+            background-color: #234b0a;
+        }
+        .color4{
+            background-color: #1dff77;
+        }
+        .color5{
+            background-color: #5d2f16;
+        }
+        .color6{
+            background-color: #ccff00;
+        }
+        .color7{
+            background-color: #546708;
+        }
+        .color8{
+            background-color: #2454c1;
+        }
+        .color9{
+            background-color: #1308fd;
+        }
+        .color10{
+            background-color: #050247;
+        }
+        .color11{
+            background-color: #00fecb;
+        }
+        .color12{
+            background-color: #04750f;
+        }
+        .color13{
+            background-color: #45067f;
+        }
+        .color14{
+            background-color: #dc8080;
+        }
+        .color15{
+            background-color: #ef9b09;
+        }
+        .color16{
+            background-color: #02474a;
+        }
+        .color17{
+            background-color: #461820;
+        }
+        .color18{
+            background-color: #ff0000;
+        }
+        .color19{
+            background-color: #d4f2ad;
+        }
+        .color20{
+            background-color: #5b015b;
+        }
+        .color21{
+            background-color: #b2bc5d;
+        }
+        .color22{
+            background-color: #d12369;
+        }
+        .color23{
+            background-color: #18256f;
+        }
+        .color24{
+            background-color: #000000;
+        }
+        .color25{
+            background-color: #006685;
+        }
+        .color26{
+            background-color: #5a051b;
+        }
+        .color27{
+            background-color: #10cfff;
+        }
+        .color28{
+            background-color: #017815;
+        }
+        .color29{
+            background-color: #a7ff1a;
+        }
+        .color30{
+            background-color: #bea500;
+        }
+    }
+    #color {
+        width: 100%;
+        border: none;
+    }
+    .line-heignt {
+        width: 240px;
+        height: 275px;
+        background-color: #d6d6d6;
+        .line {
+            width: 100%;
+            height: 50px;
+            border-top: 5px solid #5c0170;
+            display: block;
+            .current {
+                border: 2px solid black;
+            }
+            .line-height {
+                display: block;
+                position: relative;
+                top: 50%;
+                margin: 0 auto;
+                width: 90%;
+                height: 2px;
+                align-items: center;
+                background-color: #828282;
+                font-size: 0;
+                padding: 0 0 0 0;
+                cursor: pointer;
+            }
+            .height-3px {
+                height: 3px;
+            }
+            .height-5px {
+                height: 5px;
+            }
+            .height-8px {
+                height: 8px;
+            }
+            .height-10px {
+                height: 10px;
+            }
+        }
+    }
+    .buttons-box {
+        display: flex;
+        flex-direction: column;
+        padding: 25px 0 0 0;
+        #clear {
+            border: none;
+            background-color: #d6d6d6;
+            display: block;
+            margin: 0 0 10px 0;
+            padding: 10px 0;
+            cursor: pointer;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        #save {
+            border: none;
+            background-color: #d6d6d6;
+            display: block;
+            padding: 10px 0;
+            cursor: pointer;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
